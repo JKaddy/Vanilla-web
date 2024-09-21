@@ -2,3 +2,14 @@ body{
    background-color: rgb(192, 250, 247);
 
 }
+.App-container{
+    background-color: aliceblue;
+    margin: 20px auto;/*to center it*/
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 30px 50px rgb(102, 100, 100);
+}
+li{
+    list-style: none;
+}
