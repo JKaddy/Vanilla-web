@@ -2,14 +2,72 @@ body{
    background-color: rgb(212, 248, 246);
 
 }
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
 .App-container{
     background-color: aliceblue;
     margin: 40px auto;/*to center it*/
     max-width: 800px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 20px;
     box-shadow: 0 30px 50px rgb(102, 100, 100);
 }
-li{
+ul{
     list-style: none;
+    display: grid;
+}
+.search-form-input{
+    background-color: rgba(253, 253, 253, 0.973);
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    margin-right:20px;
+    font-size: 15px;
+
+}
+.search-form-submit{
+    background-color: rgb(56, 17, 100);
+    border: none;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    width:15% ;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.Main-Container{
+   text-align: center;
+
+
+}
+.main-deg{
+    font-size: 40px;
+    
+}
+emoji{
+    font-size: 100px;
+}
+
+span{
+    font-size: 20px;
+    
+}
+.main-deg{
+    font-weight: 600;
+}
+
+hr{
+    width: 6vh;
+    margin-top: 20px;
+ 
+
+}
+footer{
+    padding: 30px 0 0 0;
+    border-top: 1px;
 }
