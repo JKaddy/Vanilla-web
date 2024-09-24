@@ -16,7 +16,7 @@ h1{
 }
 .weather-details{
     display: Flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 ul{
     list-style: none;
@@ -60,6 +60,11 @@ emoji{
 span{
     font-size: 20px;
     
+}
+.Days{
+    display: grid;
+    grid-columns: 200px 200px ;
+
 }
 .main-deg{
     font-weight: 600;
