@@ -17,6 +17,8 @@ h1{
 .weather-details{
     display: Flex;
     justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 20px;
 }
 ul{
     list-style: none;
@@ -63,7 +65,7 @@ span{
 }
 .Days{
     display: grid;
-    grid-columns: 200px 200px ;
+    grid-column-end: 200px 200px ;
 
 }
 .main-deg{
